@@ -221,11 +221,22 @@
     width: 7%;
     margin: 0 .3rem;
   }
+  .container{
+    /* border: 2px solid red; */
+    margin: 3rem .5rem ;
+    width: 90%;
+  }
+  .container>table>tbody>tr>td{
+    font-size: .85rem;
+  }
 }
 @media screen and (max-width: 480px){
   .container{
     /* border: 2px solid red; */
     margin: 3rem .5rem ;
     width: 97%;
+  }
+  .container>table>tbody>tr>td{
+    font-size: .65rem;
   }
 }
