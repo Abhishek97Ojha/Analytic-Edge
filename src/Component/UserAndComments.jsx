@@ -1,22 +1,22 @@
 import React, { useContext, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { MyContext } from "../App";
 import { commentsData, usersData } from "./functions";
 
 const UserAndComments = () => {
   const context = useContext(MyContext);
   let { userId } = useParams();
+  const navigate = useNavigate()
   console.log(userId);
   useEffect(() => {
     commentsData(userId, context.setComments);
-  }, [userId, context.setComments]);
-  useEffect(() => {
     usersData(userId, context.setUsers);
-  }, [userId, context.setUsers]);
-  console.log(context.comments);
-  console.log(context.users);
+  }, [userId, context.setComments, context.setUsers]);
   return (
     <div className="container2">
+      <button onClick={()=>{
+        navigate("/")
+      }}>Back</button>
       <div className="heading-box2">
         <div className="left">
           <h1>Comments & User Details</h1>
