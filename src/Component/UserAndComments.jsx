@@ -10,8 +10,10 @@ const UserAndComments = () => {
   console.log(userId);
   useEffect(() => {
     commentsData(userId, context.setComments);
+  }, [userId, context.setComments]);
+  useEffect(() => {
     usersData(userId, context.setUsers);
-  }, [userId, context.setComments, context.setUsers]);
+  }, [userId, context.setUsers]);
   return (
     <div className="container2">
       <button onClick={()=>{
