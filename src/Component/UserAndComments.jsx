@@ -40,7 +40,7 @@ const UserAndComments = () => {
           </tr>
         </thead>
         <tbody>
-          {context.comments && context.comments.map((ele) => (
+          {context.comments.map((ele) => (
             <tr key={ele.id}>
               <td>{ele.id}</td>
               <td>{ele.postId}</td>
