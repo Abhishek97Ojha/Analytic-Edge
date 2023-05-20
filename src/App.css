@@ -215,3 +215,17 @@
 .container2>.heading-box2>.right>h2{
   font-weight: 600;
 }
+@media screen and (max-width: 768px){
+  .container>.page-btn-container>button{
+    /* border: 2px solid ; */
+    width: 7%;
+    margin: 0 .3rem;
+  }
+}
+@media screen and (max-width: 480px){
+  .container{
+    /* border: 2px solid red; */
+    margin: 3rem .5rem ;
+    width: 97%;
+  }
+}
