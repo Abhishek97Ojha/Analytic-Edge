@@ -10,10 +10,10 @@ const UserAndComments = () => {
   console.log(userId);
   useEffect(() => {
     commentsData(userId, context.setComments);
-  }, [userId, context.setComments]);
+  }, [userId]);
   useEffect(() => {
     usersData(userId, context.setUsers);
-  }, [userId, context.setUsers]);
+  }, [userId]);
   return (
     <div className="container2">
       <button onClick={()=>{
@@ -40,7 +40,7 @@ const UserAndComments = () => {
           </tr>
         </thead>
         <tbody>
-          {context.comments.map((ele) => (
+          {context.comments && context.comments.map((ele) => (
             <tr key={ele.id}>
               <td>{ele.id}</td>
               <td>{ele.postId}</td>
