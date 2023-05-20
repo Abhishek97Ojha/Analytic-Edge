@@ -32,12 +32,18 @@ Open [Hosted Link](https://analytic-edge-dun.vercel.app/) to view in Browser. <b
 Open [Github Link](https://github.com/Abhishek97Ojha/Analytic-Edge) to view in Browser. <br/><br/>
 
 ## Screenshots
+### Posts Page
+![Screenshot 2023-05-20 161751](https://github.com/Abhishek97Ojha/Analytic-Edge/assets/73434349/01c91682-898c-4ab9-8795-f59bcd8d0ebb)
 
 <br/><br/>
+![Screenshot 2023-05-20 161856](https://github.com/Abhishek97Ojha/Analytic-Edge/assets/73434349/e38b618d-c8e1-456c-8a01-712c8e556d49)
 
 <br/><br/>
+### Comments and User Details Page
+![Screenshot 2023-05-20 161948](https://github.com/Abhishek97Ojha/Analytic-Edge/assets/73434349/280617d9-7690-433b-aa1f-c046f0ca08a5)
 
 <br/><br/>
+![Screenshot 2023-05-20 162040](https://github.com/Abhishek97Ojha/Analytic-Edge/assets/73434349/27ae5620-f009-43ff-8389-8364d8a429d5)
 
 <br/><br/>
 
